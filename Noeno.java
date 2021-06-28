@@ -16,7 +16,7 @@ o=o+1;
 n=n/10;
 }
 System.out.println("Number of even numbers"+e);
-System.out.println("Number of even numbers"+o);
+System.out.println("Number of odd numbers"+o);
 }
 }
 
