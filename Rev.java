@@ -3,20 +3,19 @@ class Rev
 {
 public static void main(String args[])
 {
-Scanner sc=new Scanner(System.in);
-int n=sc.nextInt();
-int e=0,o=0;
-int r;
-while(n!=0)
-{
-r=n%10;
-n=n/10;
-if(r%2==0)
-e=e*10+r;
-else
-o=o*10+r;
-}
-System.out.println(e);
-System.out.println(o);
+int n,r=0,s=0,m=0,i=0;
+  Scanner sc=new Scanner(System.in);
+  n=sc.nextInt();
+  while(n>0)
+  { r=n%10;
+  s=s*10+r;
+  n=n/10;
+  }
+   while(n<0)
+  { r=n%10;
+  s=((s*10)+r);
+  n=n/10;
+  }
+  System.out.print(s);
 }
 }
